@@ -17,7 +17,7 @@ gradle-app.setting
 out/
 
 # .idea settings
-.idea/
+.idea
 
 /src/main/webapp/node_modules/*
 
