@@ -1,2 +1,5 @@
+# java compile file
+out
 
-.idea/workspace.xml
+# .idea settings
+.idea
