@@ -14,11 +14,13 @@ gradle-app.setting
 # gradle/wrapper/gradle-wrapper.properties
 
 # java compile file
-out
+out/
 
 # .idea settings
-.idea
+.idea/
 
 /src/main/webapp/node_modules/*
 
 src/main/webapp/WEB-INF/web.xml
+
+*.rar
