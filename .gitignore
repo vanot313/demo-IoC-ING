@@ -23,4 +23,12 @@ out/
 
 src/main/webapp/WEB-INF/web.xml
 
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
 *.rar
+
+lib/

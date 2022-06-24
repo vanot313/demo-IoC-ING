@@ -1,7 +1,7 @@
 package filters;
 
-import dao.MessageDao;
-import util.Tools;
+import dao.*;
+import util.*;
 
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;

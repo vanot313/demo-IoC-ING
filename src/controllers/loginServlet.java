@@ -1,11 +1,10 @@
 package controllers;
 
-import dao.MessageDao;
-import modles.UserAccess;
-import request.UserLogin;
-import services.MainServiceInterface;
-import services.ServiceContainer;
-import util.Tools;
+import dao.*;
+import modles.*;
+import request.*;
+import services.*;
+import util.*;
 
 import java.io.IOException;
 
@@ -44,7 +43,6 @@ public class loginServlet extends HttpServlet {
 		}catch (Exception e){
 			e.printStackTrace();
 		}
-
 	}
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		Tools.printClassMessage(this,"GET");

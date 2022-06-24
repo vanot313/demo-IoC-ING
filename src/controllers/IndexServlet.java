@@ -1,6 +1,6 @@
 package controllers;
 
-import util.Tools;
+import util.*;
 import dao.*;
 
 import javax.servlet.RequestDispatcher;
